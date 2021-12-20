@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="QuizStyle.css">
+</head>
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark navbar fixed-top ">
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+          <a class="navbar-brand" href="index.html">
+              <img class="logoImg" src="logo.png"  alt="">
+          </a>
+          <div class="collapse navbar-collapse" id="navbarNavDropdown">
+              <ul class="navbar-nav">
+                <li class="nav-item active">
+                  <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                  Quizzes
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                    <a class="dropdown-item" href="index.html">ScienceQuiz</a>
+                    <a class="dropdown-item" href="index.html">Mathematics</a>
+                    <a class="dropdown-item" href="index.html">Reasoning</a>
+                    <a class="dropdown-item" href="index.html">Gernal Knowledge</a>
+                    <a class="dropdown-item" href="index.html">History</a>
+                    <a class="dropdown-item" href="index.html">Geography</a>
+                    <a class="dropdown-item" href="index.html">Arts & Culture</a>
+                    <a class="dropdown-item" href="index.html">Languages</a>
+                    <a class="dropdown-item" href="index.html">Sports</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="about.html">About</a>
+                </li>
+              </ul>
+            </div>
+            <div class="loginbuttons">
+             <a href="createacc.html"><button type="button" class="btn btn-lg">Create Account</button></a>
+              <button type="button" class="btn btn-lg">Login</button>
+            </div> 
+         </div>
+        </nav>
+  </header>
+    <main>
+      <div class="mainDiv">
+      <div class="quizwrapper shadow-sm border-1 rounded " id="quizName" style="height: 500px; width: 909px;">
+        <h5 class="card-title" id="quiztitle" style="font-size: xx-large; width:66.5vw; height: 44px; text-align: center; margin-bottom: 162px; color: white;">Science</h5>
+        <button type="button" class="btn btn-lg"  id="start" style= "margin-bottom: 242px"> Start</button>
+        <p class="card-text" id="quiztext" style="width: 66.5vw; text-align: center; color: white;">Lorem ipsum dolor sit amet consectetur ?</p>
+        <div class="questioncontainer" id="questionContainer" style="display: none;">
+          <div class="content" id="question-area">
+               <div id="question-text">
+                 <h2 id="question">
+                 Question comes hear
+                 </h2>
+              </div>
+              <div class="Ansewr-Text" id =Answer-Area>
+                <ul>
+                 <li class="Option">
+                    <input class="answer"  id="ans1" type="radio" name="answer">
+                    <label for="ans1" id="option1"> Answer1</label>
+                 </li>
+                 <li class="Option">
+                    <input class="answer" id="ans2" type="radio" name="answer">
+                    <label for="ans2" id="option2"> Answer1</label>
+                </li>
+                <li class="Option">
+                  <input class="answer" id="ans3" type="radio" name="answer">
+                  <label for="ans3" id="option3"> Answer1</label>
+               </li>
+               <li class="Option">
+                  <input class="answer" id="ans4" type="radio" name="answer">
+                  <label for="ans4" id="option4"> Answer1 </label>
+              </li>
+              </ul>
+              </div>
+              <button class="btn-next btn-lg " id="Next"  style="height: 50px; width: 90px;">Next</button>
+              <button class="btn-next  btn-lg " id="Submit"  style="height: 50px; width: 90px;">Submit</button>
+          </div>
+       </div>
+       <div class="ScoreArea" id="Score" style=" display: none;"  >   
+      </div>
+      </div>
+     <div class="nextQuizes">
+       <h3 class="moreQuizes">
+         Next Quizzes
+       </h3>
+       <div class="card" style="margin-bottom: 5px;">
+        <a href="Quiz.html" class="quiz"> 
+        <img class="card-img" src="https://media.istockphoto.com/vectors/exam-preparation-school-test-examination-concept-checklist-and-vector-id1075035270?k=20&m=1075035270&s=612x612&w=0&h=bGm0MosAaBZBg5GyYz30F3mlW2XipvB0n80tMMeKc80=" alt="Card image" style="width:280px;height:272px;">
+       <div class="card-img-overlay">
+        <h5 class="card-title">Gernal Knowledge</h5>
+        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+      </div>
+      </a>
+       </div>
+      <div class="card">
+      <a href="Quiz.html" class="quiz"> 
+      <img class="card-img" src="https://www.pixelstalk.net/wp-content/uploads/2016/05/Mathematics-desktop-1920x1080-hd-wallpaper.jpg" alt="Card image" style="width:280px;height:272px;">
+      <div class="card-img-overlay">
+      <h5 class="card-title">Mathematics</h5>
+      <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+      </div>
+      </a>
+      </div>
+     </div>
+    </div>
+        <div class="facts">
+          <h2 class="someFacts">
+            Read Some Intresting Facts
+          </h2>
+          <div class="accordion" id="accordionExample">
+            <div class="card">
+              <div class="card-header" id="headingOne">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne" style=" color: #072c83;">
+                    Fact No 1
+                  </button>
+                </h2>
+              </div>
+          
+              <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordionExample">
+                <div class="card-body">
+                  Some placeholder content for the first accordion panel. This panel is shown by default, thanks to the <code>.show</code> class.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingTwo">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo" style=" color: #072c83;">
+                     Facts NO 2
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                <div class="card-body">
+                  Some placeholder content for the second accordion panel. This panel is hidden by default.
+                </div>
+              </div>
+            </div>
+            <div class="card">
+              <div class="card-header" id="headingThree">
+                <h2 class="mb-0">
+                  <button class="btn btn-link btn-block text-left collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree" style=" color: #072c83;">
+                    Fact No 3
+                  </button>
+                </h2>
+              </div>
+              <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                <div class="card-body">
+                  And lastly, the placeholder content for the third and final accordion panel. This panel is hidden by default.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+    </main>
+    <footer class="site-footer">
+      <div class="container">
+            <ul class="footer-links">
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="#">Contact Us</a></li>
+              <li><a href="#">Privacy Policy</a></li>
+            </ul>
+      </div>
+      </div>
+      <div class="container">
+            <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+            <a href="#">Quiz</a>.
+            </p>
+       </div>
+
+</footer>
+     
+    <script src="script.js" ></script>
+
+ 
+</body>
+</html>

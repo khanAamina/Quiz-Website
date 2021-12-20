@@ -1,0 +1,41 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+section.aboutSection {
+    padding-bottom: 80px;
+    background-image: linear-gradient(92deg, #ff000042, #ffff002e);
+}
+h1.aboutHead {
+    text-align: -webkit-center;
+}
+h1.aboutHead {
+    font-size: 6rem;
+    color: #25393c;
+    font-family: 'Zilla Slab','Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: 600;
+}
+.About {
+    display: flex;
+    background-color: #ffffff;
+    padding: 46px;
+    margin: 0 80px 0 80px;
+}
+
+.aboutWrrapper {
+    /* margin-right: 385px; */
+    margin-left: 26px;
+    margin-top: 50px;
+}
+.imgWrrapper {
+    margin-left: 100px;
+}
+img.aboutimg {
+    height: 376px;
+    margin-right: 37px;
+    margin-top: 54px;
+    border-radius: 12rem;
+    border: solid;
+    border-color: #9db418a3;
+    border-width: 0.5rem;
+}

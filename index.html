@@ -1,0 +1,615 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Quiz</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="index.css">
+        <script src="script.js" ></script>
+    </head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark navbar fixed-top ">
+          <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo01">
+              <a class="navbar-brand" href="index.html">
+                  <img class="logoImg" src="logo.png"  alt="">
+              </a>
+              <div class="collapse navbar-collapse" id="navbarNavDropdown">
+                  <ul class="navbar-nav">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Quizzes
+                      </a>
+                      <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                        <a class="dropdown-item" href="#q1">ScienceQuiz</a>
+                        <a class="dropdown-item" href="#q2">Mathematics</a>
+                        <a class="dropdown-item" href="#q3">Reasoning</a>
+                        <a class="dropdown-item" href="#q4">Gernal Knowledge</a>
+                        <a class="dropdown-item" href="#q5">History</a>
+                        <a class="dropdown-item" href="#q6">Geography</a>
+                        <a class="dropdown-item" href="#q7">Arts & Culture</a>
+                        <a class="dropdown-item" href="#q8">Languages</a>
+                        <a class="dropdown-item" href="#q9">Sports</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="about.html">About</a>
+                    </li>
+                  </ul>
+                </div>
+                <div class="loginbuttons">
+                 <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#exampleModal">Create Account</button>
+                  <button type="button" class="btn btn-lg" data-toggle="modal" data-target="#exampleModalCenter" >Login</button>
+                </div> 
+             </div>
+            </nav>
+      </header>
+      <main>
+        <section class="first">
+            <div class="FirstsectionWrrapper">
+           <div class="left">
+             <h2 class="headingleft">Play & Create Quizzes </h2>
+             <h3 class="headingleftdown"> and Share With Friends</h3>
+             <p class="fristpara">Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ea odit optio modi a provident incidunt repudiandae.<br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatem ea odit optio modi a provident incidunt repudiandae.</p>
+             <button type="button" class="btn btn-primary btn-lg">Start -></button>
+           </div>
+          </div>
+          </section>
+          <section class="Section2">
+            <div class="sectionheadinWrapper">
+              <h1 class="section2heading">Check out our most Popular Quizzes</h1>
+              <p class="section2para">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Id consequatur at, et, suscipit mollitia esse provident saepe excepturi beatae pariatur aut neque rem, <br>itaque magnam quo officiis iste temporibus. Debitis.</p>
+            </div>
+            <div class="card-columns">
+                <div class="card">
+                    <a href="Quiz.html" class="quiz"> 
+                    <img class="card-img" src="https://i.pinimg.com/originals/04/9a/c3/049ac3f64cda64c18d0909dc8e165142.jpg" alt="Card image" style="width:280px;height:272px;">
+                   <div class="card-img-overlay">
+                    <h5 class="card-title">Science</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                  </div>
+                </a>
+                </div>
+                <div class="card">
+                    <a href="Quiz.html" class="quiz"> 
+                    <img class="card-img" src="https://images2.alphacoders.com/659/thumb-1920-659390.jpg" alt="Card image" style="width:280px;height:272px;">
+                   <div class="card-img-overlay">
+                    <h5 class="card-title">History</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                  </div>
+                </a>
+                </div>
+                <div class="card">
+                    <a href="Quiz.html" class="quiz"> 
+                    <img class="card-img" src="https://wallpapercave.com/wp/wp2790127.jpg" alt="Card image" style="width:280px;height:272px;">
+                   <div class="card-img-overlay">
+                    <h5 class="card-title">Mathematics</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                  </div>
+                </a>
+                </div>
+                <div class="card">
+                    <a href="Quiz.html" class="quiz"> 
+                    <img class="card-img" src="https://c4.wallpaperflare.com/wallpaper/808/763/814/sports-background-hd-wallpaper-preview.jpg" alt="Card image" style="width:280px;height:272px;">
+                   <div class="card-img-overlay">
+                    <h5 class="card-title">Sports</h5>
+                    <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                  </div>
+                </a>
+                </div>
+            </div>
+          </section>
+          <section class="section3">
+            <div class="sectionWrrapper">
+              <h4 class="Sectionheaing">EXPLORE QUIZZES BY CATEGORIES</h4>
+              <div class="categoriesWrrapper">
+               <button type="button" class="btn btn-outline" id="q0">ALL</button>
+               <button type="button" class="btn btn-outline" id="q1" >SCIENCE</button> 
+               <button type="button" class="btn btn-outline" id="q2" >MATHEMATICS</button> 
+               <button type="button" class="btn btn-outline" id="q3">GERNAL KNOWLEDGE</button>  
+               <button type="button" class="btn btn-outline" id="q4">CURRENT AFFAIRS</button> 
+               <button type="button" class="btn btn-outline" id="q5">ARTS & CULTURE</button> 
+               <button type="button" class="btn btn-outline" id="q6">HISTORY</button>
+               <button type="button" class="btn btn-outline" id="q7">GEOGRPHY</button>
+               <button type="button" class="btn btn-outline " id="q8">SPORTS</button>
+              </div>
+            </div>
+            <div class="categories">
+            <div class="allQuizes" id="Allquiz" style="display: block;">
+                <div class="card-columns"> 
+                    <div class="card">
+                        <a id="1stquiz" href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://wallpapercave.com/wp/wp4254574.jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">Science</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://www.pixelstalk.net/wp-content/uploads/2016/05/Mathematics-desktop-1920x1080-hd-wallpaper.jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">Mathematics</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://wallpapercave.com/wp/wp9440186.jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">Gernal Knowledge</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://accentconcept.com/wp-content/uploads/2016/10/Current-Affairs.jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">CurrentAffairs</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://images2.alphacoders.com/659/thumb-1920-659390.jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">History</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://wallpapercave.com/wp/wp2790127.jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">Mathematics</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://c4.wallpaperflare.com/wallpaper/808/763/814/sports-background-hd-wallpaper-preview.jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">Sports</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://wallpapercave.com/wp/wp4254574.jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">Science</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="Science" id="scienceQuiz" style="display: none;">
+                <div class="card-columns">
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://i.pinimg.com/originals/04/9a/c3/049ac3f64cda64c18d0909dc8e165142.jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">Science</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://wallpapercave.com/wp/wp2780647.jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">Science</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://img.freepik.com/free-vector/science-word-theme_23-2148540555.jpg?size=626&ext=jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">Science</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://wallpapercave.com/wp/wp4254574.jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">Science</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="Mathematics" id="mathQuiz" style="display: none;">
+                <div class="card-columns">
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://wallpapercave.com/wp/wp2790127.jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">Mathematics</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://www.pixelstalk.net/wp-content/uploads/2016/05/Mathematics-desktop-1920x1080-hd-wallpaper.jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">Mathematics</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://www.teahub.io/photos/full/52-522521_math-wallpaper-hd-simple-maths-hd.jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">Mathematics</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://www.wallpapertip.com/wmimgs/159-1598739_phd-expert-tutoring-math-physics-and-engineering-mathematics.jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">Mathematics</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                </div> 
+            </div>
+            <div class="GernalKnowledge" id="gkQuiz" style="display: none;">
+                <div class="card-columns">
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://wallpapercave.com/wp/wp9440186.jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">Gernal Knowledge</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://wallpaperaccess.com/full/1471682.jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">Gernal Knowledge</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://wallpapercave.com/wp/wp2003326.jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">Gernal Knowledge</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://media.istockphoto.com/vectors/exam-preparation-school-test-examination-concept-checklist-and-vector-id1075035270?k=20&m=1075035270&s=612x612&w=0&h=bGm0MosAaBZBg5GyYz30F3mlW2XipvB0n80tMMeKc80=" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">Gernal Knowledge</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="CurrentAffairs" id="caQuiz" style="display: none;">
+                <div class="card-columns">
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="data:image/jpeg;base64,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" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">Current Affairs</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://akm-img-a-in.tosshub.com/indiatoday/images/story/201909/current_affairs_0.jpeg?lscHEYFDvKgYYs9rBMdD851OGEw1.dBQ&size=1200:675" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">CurrentAffairs</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://blog.majorkalshiclasses.com/wp-content/uploads/2021/01/person-died.jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">CurrentAffairs</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://accentconcept.com/wp-content/uploads/2016/10/Current-Affairs.jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">CurrentAffairs</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="Arts&culture" id="artsQuiz" style="display: none;">
+                <div class="card-columns">
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://i.pinimg.com/originals/04/9a/c3/049ac3f64cda64c18d0909dc8e165142.jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">Arta & Culture</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://wallpapercave.com/wp/wp2780647.jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">Arta & Culture</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://img.freepik.com/free-vector/Arta & Culture-word-theme_23-2148540555.jpg?size=626&ext=jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">Arta & Culture</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://wallpapercave.com/wp/wp4254574.jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">Arta & Culture</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                </div> 
+            </div>
+            <div class="History" id="hisQuiz" style="display: none;">
+                <div class="card-columns">
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://i.pinimg.com/originals/04/9a/c3/049ac3f64cda64c18d0909dc8e165142.jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">History</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://wallpapercave.com/wp/wp2780647.jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">History</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://img.freepik.com/free-vector/History-word-theme_23-2148540555.jpg?size=626&ext=jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">History</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://wallpapercave.com/wp/wp4254574.jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">History</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                </div> </div>
+
+            <div class="Geography" id="geoQuiz" style="display: none;">
+                <div class="card-columns">
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://i.pinimg.com/originals/04/9a/c3/049ac3f64cda64c18d0909dc8e165142.jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">Geography</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://wallpapercave.com/wp/wp2780647.jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">Geography</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://img.freepik.com/free-vector/Geography-word-theme_23-2148540555.jpg?size=626&ext=jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">Geography</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://wallpapercave.com/wp/wp4254574.jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">Geography</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                </div> 
+            </div>
+            <div class="Sports" id="sportaQuiz" style="display: none;">
+                <div class="card-columns">
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://i.pinimg.com/originals/04/9a/c3/049ac3f64cda64c18d0909dc8e165142.jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">Sports</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://wallpapercave.com/wp/wp2780647.jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">Sports</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://img.freepik.com/free-vector/Sports-word-theme_23-2148540555.jpg?size=626&ext=jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">Sports</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                    <div class="card">
+                        <a href="Quiz.html" class="quiz"> 
+                        <img class="card-img" src="https://wallpapercave.com/wp/wp4254574.jpg" alt="Card image" style="width:280px;height:272px;">
+                       <div class="card-img-overlay">
+                        <h5 class="card-title">Sports</h5>
+                        <p class="card-text">Lorem ipsum dolor sit amet consectetur ?</p>
+                      </div>
+                    </a>
+                    </div>
+                </div> 
+            </div>
+        </div>
+          </section>
+          <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <h5 class="modal-title" id="exampleModalLabel" style="text-align: center;"> Create a New Account</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                    <div class="formWrapper">
+                        <h3 class="formHeading">Create a New Account</h3>
+                        <form>
+                            <div class="mb-2">
+                              <label for="exampleInputEmail1" class="form-label">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                              <div id="emailHelp" class="form-text">We'll never share your email with anyone else.</div>
+                            </div>
+                            <div class="mb-2">
+                              <label for="exampleInputPassword1" class="form-label">Create Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1">
+                              <label for="exampleInputPassword1" class="form-label">Re Enter your Password</label>
+                              <input type="password" class="form-control" id="exampleInputPassword1">
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                          </form> 
+                          <p class="existsText">If you already have account!</p>
+                          <button type="button" class="btn btn-lg">Login</button>
+                    </div>
+                </div>
+                <div class="modal-footer" style="align-items: center;">
+                  <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                  
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Modal -->
+            <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+                <div class="modal-dialog modal-dialog-centered" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                    <h5 class="modal-title" id="exampleModalLongTitle"> Login</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                    </div>
+                    <div class="modal-body" style="text-align: center;">
+                        <form>
+                            <div class="mb-2">
+                              <label for="exampleInputEmail1" class="form-label">Email address</label>
+                              <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                            </div>
+                            <div class="mb-2">
+                             <input type="password" class="form-control" id="exampleInputPassword1">
+                              <label for="exampleInputPassword1" class="form-label">Password</label>
+                            </div>
+                            <button type="submit" class="btn btn-primary">Submit</button>
+                          </form> 
+                    </div>
+                    
+                </div>
+                </div>
+            </div>
+      </main>
+
+      <footer class="site-footer">
+        <div class="container">
+              <ul class="footer-links">
+                <li><a href="about.html">About Us</a></li>
+                <li><a href="#">Contact Us</a></li>
+                <li><a href="#">Privacy Policy</a></li>
+              </ul>
+        </div>
+        </div>
+        <div class="container">
+              <p class="copyright-text">Copyright &copy; 2021 All Rights Reserved by 
+              <a href="#">Quiz</a>.
+              </p>
+         </div>
+
+  </footer>
+      <script src="index.js" ></script>
+      <script src="script.js" ></script>
+</body>
+</html>

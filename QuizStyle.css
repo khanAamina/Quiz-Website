@@ -1,0 +1,104 @@
+*{
+  margin: 0%;
+  padding: 0%;
+
+}
+main {
+    background-image: linear-gradient( 45deg, #072c83, #dee1e9d6);
+}
+.mainDiv {
+    display: flex;
+}
+div#quizName {
+    margin-left: 3.5rem;
+    margin-top: 2.5rem;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+    justify-content: center;
+    background-image: url(https://i.pinimg.com/originals/04/9a/c3/049ac3f64cda64c18d0909dc8e165142.jpg);
+}
+
+div.questioncontainer {
+    padding: 99px;
+}
+
+.questioncontainer {
+    height: 489px;
+    width: 899px;
+    text-align: -webkit-center;
+}
+div#Answer-Area {
+    text-align: left;
+    margin-left: 28px;
+}
+li.Option{
+    list-style: none;
+    font-size: 1.5rem;
+}
+.answer{
+    font-size: 1.5rem;
+}
+input{
+    cursor: pointer ; 
+}
+#Submit{
+    display: none;
+}
+div#Score {
+    height: 256px;
+    width: 35vw;
+    background-image: linear-gradient(45deg, #ffffff, #ffffffe0);
+    border: solid 2px white;
+    box-shadow: 0px 3px 8px -7px #888888;
+    text-align: -webkit-center;
+    padding-top: 2rem;
+    padding-bottom: 35px;
+    margin-bottom: 230px;
+}
+#playAgain{
+        height: 50px;
+        width: 148px;
+        background-color: #b5cce0;
+        border: 2px solid #b5cce0;
+}
+#playAgain:hover{
+    height: 50px;
+    width: 148px;
+    background-color: #3a95e4;
+    border: 2px solid #3a95e4;
+}
+.nextQuizes {
+    display: inline-block;
+    margin-left: 43px;
+    margin-top: 13px;
+}
+h3.moreQuizes {
+    font-family: 'Zilla Slab', ui-serif,Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #072c83;
+    color: white;
+
+    padding-left: 8px;
+}
+.facts {
+    margin-left: 37px;
+    margin-right: 57px;
+}
+h2.someFacts {
+    font-family: 'Zilla Slab', ui-serif,Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    background-color: #072c83;
+    color: white;
+    padding-left: 8px;
+    display: inline;
+    padding: 6px;
+}
+div#accordionExample {
+    margin-top: 12px;
+    margin-bottom: 12px;
+    width: 92vw;
+}
+
+
